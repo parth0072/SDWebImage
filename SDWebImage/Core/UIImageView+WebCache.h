@@ -66,6 +66,7 @@
 - (void)sd_setImageWithURL:(nullable NSURL *)url
           placeholderImage:(nullable UIImage *)placeholder NS_REFINED_FOR_SWIFT;
 
+- (void)setImageWithURL:(nullable NSURL *)url placeholderImage:(nullable UIImage *)placeholder ;
 /**
  * Set the imageView `image` with an `url`, placeholder and custom options.
  *
